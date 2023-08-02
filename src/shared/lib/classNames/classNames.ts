@@ -2,7 +2,7 @@ type Mods = Record<string, boolean | string>;
 
 export function classNames(
   classes: string,
-  mods: Mods,
+  mods?: Mods,
   additionalClasses?: string[]
 ): string {
   return [

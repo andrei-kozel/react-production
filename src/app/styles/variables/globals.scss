@@ -13,4 +13,13 @@
 
   // sizes
   --navbar-height: 60px;
+  --sidebar-width: 300px;
+  --sidebar-collapsed-width: 60px;
+}
+.content-page {
+  display: flex;
+}
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
 }

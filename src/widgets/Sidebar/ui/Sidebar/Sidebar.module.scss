@@ -12,8 +12,10 @@
 
 .switchers {
   width: 100%;
+  flex-direction: column;
   position: absolute;
   bottom: 20px;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }

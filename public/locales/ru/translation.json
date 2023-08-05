@@ -1,0 +1,9 @@
+{
+  "title": "React продакшн урок",
+  "home_page_title": "Главная страница",
+  "about_page_title": "О нас",
+  "navigation_links": {
+    "home": "Главная",
+    "about": "О нас"
+  }
+}

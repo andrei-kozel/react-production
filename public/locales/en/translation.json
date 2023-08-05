@@ -1,0 +1,9 @@
+{
+  "title": "react production tutiorial",
+  "home_page_title": "Home",
+  "about_page_title": "About",
+  "navigation_links": {
+    "home": "Home",
+    "about": "About"
+  }
+}

@@ -1,13 +1,11 @@
-@import "variables/globals.scss";
-@import "./reset.scss";
-@import "./themes/dark.scss";
-@import "./themes/normal.scss";
+@import "variables/globals";
+@import "./reset";
+@import "./themes/dark";
+@import "./themes/normal";
 
 .app {
   font: var(--font-m);
-
   background: var(--bg-color);
   color: var(--primary-color);
-
   min-height: 100vh;
 }

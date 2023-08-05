@@ -5,5 +5,6 @@
   "navigation_links": {
     "home": "Home",
     "about": "About"
-  }
+  },
+  "toggle_sidebar": "X"
 }

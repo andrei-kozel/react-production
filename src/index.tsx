@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import "@/shared/config/i18n/i18n";
 
 const container = document.getElementById("root");
-const root = createRoot(container as HTMLElement);
+const root = createRoot(container);
 
 const app = (
   <BrowserRouter>

@@ -34,7 +34,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
   },
-  ignorePatterns: [".eslintrc.js"],
+  ignorePatterns: [".eslintrc.js", "config/jest/jest.config.ts"],
   globals: {
     __IS_DEV__: true,
   },

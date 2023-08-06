@@ -5,5 +5,7 @@
   "navigation_links": {
     "home": "Главная",
     "about": "О нас"
-  }
+  },
+  "not_found_page": "Страница не найдена",
+  "toggle_sidebar": "X"
 }

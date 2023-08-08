@@ -7,6 +7,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:storybook/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -20,7 +21,9 @@ module.exports = {
     "i18next/no-literal-string": 2,
     "react/jsx-filename-extension": [
       2,
-      { extensions: [".js", ".jsx", ".tsx"] },
+      {
+        extensions: [".js", ".jsx", ".tsx"],
+      },
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
@@ -34,7 +37,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
   },
-  ignorePatterns: [".eslintrc.js", "config/jest/jest.config.ts"],
+  ignorePatterns: [".eslintrc.js", "config/**/*"],
   globals: {
     __IS_DEV__: true,
   },

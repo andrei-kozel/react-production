@@ -7,6 +7,7 @@ export enum ThemeButton {
   PRIMARY = "primary",
   SECONDARY = "secondary",
   TERTIARY = "tertiary",
+  OUTLINED = "outlined",
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

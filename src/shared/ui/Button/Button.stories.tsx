@@ -5,6 +5,7 @@ import "@/app/styles/index.scss";
 const meta = {
   title: "shared/Button",
   component: Button,
+  tags: ['autodocs'],
   argTypes: {
     theme: {
       control: {

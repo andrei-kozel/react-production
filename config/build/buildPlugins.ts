@@ -26,10 +26,9 @@ export function buildPlugins({
     new DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev),
     }),
-    isDev && new HotModuleReplacementPlugin(),
-    isDev &&
-      new BundleAnalyzerPlugin({
-        openAnalyzer: false,
-      }),
+    new HotModuleReplacementPlugin(),
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false,
+    }),
   ];
 }

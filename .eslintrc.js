@@ -16,7 +16,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: "./tsconfig.json",
   },
-  plugins: ["react", "i18next"],
+  plugins: ["react", "i18next", "react-hooks"],
   rules: {
     "i18next/no-literal-string": 2,
     "react/jsx-filename-extension": [
@@ -36,6 +36,8 @@ module.exports = {
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
     "no-underscore-dangle": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies'
   },
   ignorePatterns: [".eslintrc.js", "config/**/*"],
   globals: {

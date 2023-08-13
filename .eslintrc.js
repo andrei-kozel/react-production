@@ -38,6 +38,7 @@ module.exports = {
     "no-underscore-dangle": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies'
+    "no-param-reassign": "off",
   },
   ignorePatterns: [".eslintrc.js", "config/**/*"],
   globals: {

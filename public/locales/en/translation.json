@@ -9,5 +9,8 @@
   "toggle_sidebar": "X",
   "not_found_page": "Page not found",
   "Something went wrong": "Something went wrong",
-  "Reload page": "Reload page"
+  "Reload page": "Reload page",
+  "Login": "Login",
+  "Username": "Username",
+  "Password": "Password"
 }

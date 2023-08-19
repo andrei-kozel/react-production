@@ -9,5 +9,7 @@
   "not_found_page": "Страница не найдена",
   "toggle_sidebar": "X",
   "Something went wrong": "Что-то пошло не так",
-  "Reload page": "Перезагрузить страницу"
+  "Reload page": "Перезагрузить страницу",
+  "Login": "Войти",
+  "Username": "Имя пользователя"
 }

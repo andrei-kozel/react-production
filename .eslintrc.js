@@ -40,7 +40,7 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies'
     "no-param-reassign": "off",
   },
-  ignorePatterns: [".eslintrc.js", "config/**/*"],
+  ignorePatterns: [".eslintrc.js", "config/**/*", "json-server"],
   globals: {
     __IS_DEV__: true,
   },
